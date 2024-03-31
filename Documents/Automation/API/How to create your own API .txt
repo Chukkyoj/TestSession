@@ -1,0 +1,106 @@
+How to create your own API 
+
+2 types of API 
+
+1. Local
+2. Remote
+
+Step 1 - Download and install NOde js
+
+Check if node js is installed via CMD
+NODE --VERSION
+Check if npm is installed
+npm -- version
+
+Step 2 - Install json server via cmd  by using 
+npm  install -g json-server
+
+Step 3 - Write a javascript code in an editor 
+
+Step 4 - Save as a Json file
+
+Step 5 - Import or input to Postman all parameters needed 
+
+Step 6 - Leave the Json server CMD running 
+
+Step 7 - Enter the json-server filename.json command on cmd(Ensure you are on the location where your json file is saved
+
+
+
+HOW TO FIND JSON PATHS
+
+Step 1 - Launch jsonpathfinder (It will show the individual paths)
+
+Step 2 - Launch jsonpath.com (It will show the response from the path)
+
+HOW TO FIND JSON SCHEMA
+
+Step 1 - Launch your browser
+
+Step 2 - Search for  free json schema online
+
+Step 3 - Copy the response and paste on the schema generator
+
+Json Schema checks if the data types are what is given in the response
+
+Things to check in API tests
+
+1. Cookies
+2. Headers
+3. Status codes
+4. Response time
+5. Response body
+
+5 Scope of creating variables
+
+1. Global
+2. Environment
+3. Collection
+4. Local
+5. Data 
+
+Setting variables from the pre-request script
+
+pm.global.set("Key","Value")
+pm.environment.set("Key","Value")
+pm.collectionvariables.set("Key","Value")
+pm.variables.set("Key","Value")
+
+Removing pre-request scripts
+
+pm.global.unset("Key")
+pm.environment.unset("Key")
+pm.collectionvariables.unset("Key")
+pm.variables.unset("Key")
+
+Examples of free API websites
+https://gorest.co.in/
+https://reqres.in/
+petstore.swagger.io
+opencart.com
+
+
+Saving this here for a later time 
+
+𝐓𝐨𝐩 𝐏𝐥𝐚𝐲𝐠𝐫𝐨𝐮𝐧𝐝 𝐏𝐥𝐚𝐭𝐟𝐨𝐫𝐦𝐬 𝐟𝐨𝐫 𝐐𝐀 𝐀𝐮𝐭𝐨𝐦𝐚𝐭𝐢𝐨𝐧 𝐏𝐫𝐚𝐜𝐭𝐢𝐜𝐞 :
+
+1)𝐭𝐡𝐞-𝐢𝐧𝐭𝐞𝐫𝐧𝐞𝐭.𝐡𝐞𝐫𝐨𝐤𝐮𝐚𝐩𝐩: https://lnkd.in/dF6SEMxb
+2)𝐔𝐈𝐭𝐞𝐬𝐭𝐢𝐧𝐠𝐩𝐥𝐚𝐲𝐠𝐫𝐨𝐮𝐧𝐝:https://lnkd.in/d68AqPkb
+3)𝐓𝐡𝐞 𝐏𝐥𝐚𝐲𝐠𝐫𝐨𝐮𝐧𝐝:https://lnkd.in/dak57wGZ
+4)𝐃𝐞𝐦𝐨 𝐐𝐀: https://demoqa.com/
+5)𝐒𝐞𝐥𝐞𝐧𝐢𝐮𝐦 𝐓𝐞𝐬𝐭 𝐏𝐚𝐠𝐞𝐬:https://lnkd.in/dHcHytYH
+6)𝐋𝐞𝐭𝐂𝐨𝐝𝐞:https://letcode.in/test
+7)𝐔𝐥𝐭𝐢𝐦𝐚𝐭𝐞𝐐𝐀:https://lnkd.in/dVkefCqW
+8)𝐒𝐞𝐥𝐞𝐜𝐭𝐨𝐫𝐬𝐇𝐮𝐛 𝐏𝐫𝐚𝐜𝐭𝐢𝐜𝐞 𝐏𝐚𝐠𝐞:https://lnkd.in/dsA9JdSn
+9)W𝐞𝐛𝐃𝐫𝐢𝐯𝐞𝐫𝐔𝐧𝐢𝐯𝐞𝐫𝐬𝐢𝐭𝐲:https://lnkd.in/dhZ6H4Sy
+
+✓ 𝐁𝐞𝐬𝐭 𝐃𝐞𝐦𝐨 𝐒𝐢𝐭𝐞 𝐰𝐢𝐭𝐡 𝐄-𝐂𝐨𝐦𝐦𝐞𝐫𝐜𝐞/𝐁𝐚𝐧𝐤𝐢𝐧𝐠 𝐒𝐢𝐭𝐞𝐬 : 
+
+1)𝐏𝐚𝐫𝐚𝐁𝐚𝐧𝐤: https://lnkd.in/dQ-dnavd
+2)𝐋𝐮𝐦𝐚 – 𝐌𝐚𝐠𝐞𝐧𝐭𝐨 𝐞𝐂𝐨𝐦𝐦𝐞𝐫𝐜𝐞:https://lnkd.in/dF9UMUD4
+3)𝐃𝐞𝐦𝐨𝐛𝐥𝐚𝐳𝐞: https://www.demoblaze.com/
+4)𝐒𝐰𝐚𝐠 𝐋𝐚𝐛𝐬: https://www.saucedemo.com/
+5)𝐀𝐮𝐭𝐨𝐦𝐚𝐭𝐢𝐨𝐧 𝐁𝐨𝐨𝐤𝐬𝐭𝐨𝐫𝐞:https://lnkd.in/dpb5zhNH
+6)𝐉𝐏𝐞𝐭𝐒𝐭𝐨𝐫𝐞 𝐃𝐞𝐦𝐨:https://lnkd.in/dFEJ7FZy
+7)𝐆𝐥𝐨𝐛𝐚𝐥𝐒𝐐𝐀 𝐁𝐚𝐧𝐤𝐢𝐧𝐠 𝐏𝐫𝐨𝐣𝐞𝐜𝐭: https://lnkd.in/dQaM9gcc
+8)𝐆𝐚𝐭𝐥𝐢𝐧𝐠 𝐂𝐨𝐦𝐩𝐮𝐭𝐞𝐫𝐬 𝐃𝐚𝐭𝐚𝐛𝐚𝐬𝐞: https://lnkd.in/dzNvrPgq 
